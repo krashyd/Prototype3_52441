@@ -516,6 +516,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bfd3e4b31565104ab78aae8b2b0c689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpForce: 10
+  gravityModifier: 1
+  isOnGround: 1
 --- !u!65 &1158065687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -535,8 +538,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.354349, y: 3.4518416, z: 1.15}
-  m_Center: {x: -0.15207577, y: 1.4828247, z: 3.8477022e-16}
+  m_Size: {x: 1, y: 0.53391355, z: 1}
+  m_Center: {x: -0, y: 0.23304322, z: 0}
 --- !u!54 &1158065688
 Rigidbody:
   m_ObjectHideFlags: 0
