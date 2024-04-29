@@ -405,17 +405,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.98
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.84
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalRotation.w
@@ -447,15 +451,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 451656, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.13270283
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 451656, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.012947932
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: 451656, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.16313267
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 451656, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalRotation.w
@@ -531,8 +535,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.860799, y: 4.0310793, z: 0.50551325}
-  m_Center: {x: -0.4407333, y: 1.7950425, z: -0.24724343}
+  m_Size: {x: 3.354349, y: 3.4518416, z: 1.15}
+  m_Center: {x: -0.15207577, y: 1.4828247, z: 3.8477022e-16}
 --- !u!54 &1158065688
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -598,8 +602,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.43, y: 3.37, z: 1.15}
-  m_Center: {x: 0, y: 1.49, z: 0}
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2014335013
 MeshRenderer:
   m_ObjectHideFlags: 0
