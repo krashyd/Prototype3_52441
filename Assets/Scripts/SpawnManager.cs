@@ -17,17 +17,17 @@ public class SpawnManager : MonoBehaviour
         PlayerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
-    void SpawnObstacle()
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+     void SpawnObstacle()
     {
         if(PlayerControllerScript.gameOver == false)
         {
         Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
